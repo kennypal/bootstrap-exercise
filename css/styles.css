@@ -9,6 +9,10 @@ h1 {
   padding: 3% 15%;
 }
 
+.iphone {
+  transform: rotate(20deg);
+}
+
 #title {
   background-color: #ff4c68;
 }
