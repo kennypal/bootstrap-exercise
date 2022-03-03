@@ -23,6 +23,10 @@ p {
   color: #8f8f8f;
 }
 
+.carousel-item {
+  padding: 7% 15%;
+}
+
 .container-fluid {
   padding: 3% 15%;
 }
