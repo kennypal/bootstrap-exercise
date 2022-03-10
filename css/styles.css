@@ -23,6 +23,12 @@ p {
   color: #8f8f8f;
 }
 
+.bottom-title {
+  position: absolute;
+  z-index: 1;
+  top: 550px;
+}
+
 .carousel-item {
   padding: 7% 15%;
 }
@@ -82,8 +88,6 @@ p {
 #features {
   background-color: #fff;
   padding: 7% 15%;
-  position: absolute;
-  top: 550px;
 }
 
 #press {
