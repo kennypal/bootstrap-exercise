@@ -23,18 +23,12 @@ p {
   color: #8f8f8f;
 }
 
-.bottom-title {
-  position: absolute;
-  z-index: 1;
-  top: 550px;
-}
-
 .carousel-item {
   padding: 7% 15%;
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 10%;
 }
 
 .feature-box {
@@ -52,8 +46,9 @@ p {
 }
 
 .iphone {
+  position: absolute;
   transform: rotate(20deg);
-  width: 60%;
+  width: 25%;
 }
 
 .navbar {
@@ -88,6 +83,7 @@ p {
 #features {
   background-color: #fff;
   padding: 7% 15%;
+  position: relative;
 }
 
 #press {
@@ -111,4 +107,16 @@ p {
   background-color: #ff4c68;
   position: relative;
   z-index: -1;
+}
+
+@media (max-width: 1028px) {
+  .iphone {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+
+  #title {
+    text-align: center;
+  }
 }
