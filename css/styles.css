@@ -82,16 +82,22 @@ p {
   width: 10%;
 }
 
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 6% 25%;
+  text-align: center;
+}
+
 #features {
   background-color: #fff;
   padding: 7% 15%;
   position: relative;
 }
 
-#cta {
-  background-color: #ff4c68;
-  color: #fff;
-  padding: 6% 25%;
+#footer {
+  background-color: #fff;
+  padding: 7% 15%;
   text-align: center;
 }
 
