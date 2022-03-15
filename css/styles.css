@@ -120,8 +120,8 @@ p {
 
 #title {
   background-color: #ff4c68;
-  position: relative;
-  z-index: -1;
+  /* position: relative;
+  z-index: -1; */
 }
 
 @media (max-width: 1028px) {
