@@ -1,5 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
 h1 {
@@ -18,8 +19,9 @@ p {
   color: #8f8f8f;
 }
 
-.carousel-item {
-  padding: 7% 15%;
+.carousel-control-prev,
+.carousel-control-next {
+  width: 4%;
 }
 
 .cta-text {
@@ -30,11 +32,10 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15% 10%;
+  padding: 7% 15%;
 }
 
 .feature-box {
-  text-align: center;
   padding: 5%;
 }
 
@@ -86,25 +87,20 @@ p {
   background-color: #ff4c68;
   color: #fff;
   padding: 6% 25%;
-  text-align: center;
 }
 
 #features {
   background-color: #fff;
-  padding: 7% 15%;
   position: relative;
 }
 
 #footer {
   background-color: #fff;
-  padding: 7% 15%;
-  text-align: center;
 }
 
 #press {
   background-color: #ef8712;
   padding-bottom: 3%;
-  text-align: center;
 }
 
 #pricing {
@@ -114,14 +110,15 @@ p {
 #testimonials {
   background-color: #ef8712;
   color: #fff;
-  padding: 7% 15%;
-  text-align: center;
 }
 
 #title {
   background-color: #ff4c68;
-  /* position: relative;
-  z-index: -1; */
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 10%;
 }
 
 @media (max-width: 1028px) {
